@@ -1,0 +1,72 @@
+.cv-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center; /* Alineación central */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4CAF50; /* Borde verde claro */
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4CAF50; /* Verde claro */
+    margin: 10px 0;
+  }
+  
+  .profession {
+    font-size: 1.2rem;
+    color: #007BFF; /* Azul claro */
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #007BFF; /* Línea azul claro */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .info-section,
+  .education-section,
+  .hobbies-section {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
